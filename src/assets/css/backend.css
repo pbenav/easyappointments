@@ -21,7 +21,7 @@ root {
    -------------------------------------------------------------------- */
 #header {
     background-color: #39c678;
-    border-bottom: 4px solid #c0f1d6;
+    border-bottom: 4px solid #7aa4ce;
     box-shadow: none;
     border-radius: 0;
     margin-bottom: 15px;
@@ -71,7 +71,7 @@ root {
 
 #header #header-menu .active {
     color: #C5FFD6;
-    background: #29A067;
+    background: #6699cc;
 }
 
 #footer {
@@ -156,7 +156,7 @@ body .modal .modal-title {
 body .modal-header {
     padding: 12px 15px;
     background: #39c678;
-    border-bottom: 4px solid #c0f1d6;
+    border-bottom: 4px solid #7aa4ce;
 }
 
 body .modal-header h3 {

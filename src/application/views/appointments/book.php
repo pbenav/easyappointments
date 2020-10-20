@@ -27,7 +27,7 @@
                 <!-- FRAME TOP BAR -->
 
                 <div id="header">
-                    <span id="company-name"><?= $company_name ?></span>
+                    <span id="company-name"><img style="height:60px; margin-right:5px;" src="<?= base_url('assets/img/logo.png') ?>"><?= $company_name ?></span>
 
                     <div id="steps">
                         <div id="step-1" class="book-step active-step" title="<?= lang('step_one_title') ?>">
@@ -238,8 +238,8 @@
                                     <input type="text" id="city" class="form-control" maxlength="120" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="zip-code" class="control-label"><?= lang('zip_code') ?></label>
-                                    <input type="text" id="zip-code" class="form-control" maxlength="120" />
+                                    <label for="zip-code" class="control-label"><?= lang('zip_code') ?> *</label>
+                                    <input type="text" id="zip-code" class="required form-control" maxlength="120" />
                                 </div>
                                 <div class="form-group">
                                     <label for="notes" class="control-label"><?= lang('notes') ?></label>

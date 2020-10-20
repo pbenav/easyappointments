@@ -112,6 +112,18 @@ $autoload['language'] = [];
 
 $autoload['model'] = [];
 
+/*
+| -------------------------------------------------------------------
+|  Auto-load Models
+| -------------------------------------------------------------------
+| Prototype:
+|
+|	$autoload['model'] = array('model1', 'model2');
+|
+*/
+
+$autoload['time_zone'] = date_default_timezone_set('Europe/Madrid');
+
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
