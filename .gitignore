@@ -6,22 +6,20 @@
 /doc/plato/
 /node_modules/
 /npm-debug.log
+/Configs
 /src/config.php
 /src/storage/cache/*
-!/src/storage/cache/.htaccess
-!/src/storage/cache/index.html
+#!/src/storage/cache/.htaccess
+#!/src/storage/cache/index.html
 /src/storage/logs/*
-!/src/storage/logs/.htaccess
-!/src/storage/logs/index.html
+#!/src/storage/logs/.htaccess
+#!/src/storage/logs/index.html
 /src/storage/sessions/*
-!/src/storage/sessions/.htaccess
-!/src/storage/sessions/index.html
+#!/src/storage/sessions/.htaccess
+#!/src/storage/sessions/index.html
 /src/storage/uploads/*
 /!src/storage/uploads/index.html
 /vendor/
 
-src/zafarrayae_decitas_2020-10-19_22-31-04.sql
 
-src/zafarrayae_decitas_2020-10-19_22-31-04.sql.zip
-
-storage/sessions/
+config.php
