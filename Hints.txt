@@ -1,0 +1,4 @@
+Errores de login:
+
+	* Permisos +w de la carpeta storage
+	* Dueño y grupo de los archivos
