@@ -292,8 +292,9 @@
                                 <input type="text" id="city" class="form-control" maxlength="120"/>
                             </div>
                             <div class="form-group">
-                                <label for="zip-code" class="control-label">
+                                <label for="zip-code" class="required control-label">
                                     <?= lang('zip_code') ?>
+                                <span class="text-danger">*</span>
                                 </label>
                                 <input type="text" id="zip-code" class="form-control" maxlength="120"/>
                             </div>
