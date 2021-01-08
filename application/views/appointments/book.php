@@ -292,11 +292,11 @@
                                 <input type="text" id="city" class="form-control" maxlength="120"/>
                             </div>
                             <div class="form-group">
-                                <label for="zip-code" class="required control-label">
+                                <label for="zip-code" class="control-label">
                                     <?= lang('zip_code') ?>
                                 <span class="text-danger">*</span>
                                 </label>
-                                <input type="text" id="zip-code" class="form-control" maxlength="120"/>
+                                <input type="text" id="zip-code" class="required form-control" maxlength="120"/>
                             </div>
                             <div class="form-group">
                                 <label for="notes" class="control-label">
@@ -364,9 +364,7 @@
                             <div class="col-12 col-md-6">
                                 <h4 class="captcha-title">
                                     CAPTCHA
-                                    <button class="btn btn-link text-dark text-decoration-none py-0">
-                                        <i class="fas fa-sync-alt"></i>
-                                    </button>
+                                    <small class="fas fa-sync-alt"></small>
                                 </h4>
                                 <img class="captcha-image" src="<?= site_url('captcha') ?>">
                                 <input class="captcha-text form-control" type="text" value=""/>
